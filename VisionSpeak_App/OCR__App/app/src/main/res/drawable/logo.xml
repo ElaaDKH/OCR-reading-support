@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle -->
+    <path
+        android:pathData="M 100,100 m -95,0 a 95,95 0 1,0 190,0 a 95,95 0 1,0 -190,0"
+        android:fillColor="#4A90E2"
+        android:strokeColor="#2E5C8A"
+        android:strokeWidth="3"/>
+
+    <!-- Eye shape -->
+    <path
+        android:pathData="M 50,90 Q 50,60 100,60 Q 150,60 150,90 Q 150,120 100,120 Q 50,120 50,90"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#2E5C8A"
+        android:strokeWidth="3"/>
+
+    <!-- Pupil -->
+    <path
+        android:pathData="M 100,90 m -20,0 a 20,20 0 1,0 40,0 a 20,20 0 1,0 -40,0"
+        android:fillColor="#2E5C8A"/>
+
+    <!-- Highlight -->
+    <path
+        android:pathData="M 105,85 m -8,0 a 8,8 0 1,0 16,0 a 8,8 0 1,0 -16,0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"/>
+
+    <!-- Sound waves -->
+    <path
+        android:pathData="M 140,90 Q 155,90 160,85"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M 140,95 Q 160,95 168,90"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+
+    <path
+        android:pathData="M 140,100 Q 165,100 175,95"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"/>
+</vector>

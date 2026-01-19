@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header with Logo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/header_background"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo"
+                android:contentDescription="VisionSpeak Logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="VisionSpeak"
+                android:textColor="#2E5C8A"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!-- Camera Button - Large and prominent -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Capture Text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_camera"
+            app:iconSize="32dp"
+            app:iconGravity="textStart"
+            app:cornerRadius="16dp"
+            android:backgroundTint="#4A90E2"
+            android:elevation="8dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Control Buttons Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSpeak"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Read"
+                    android:textSize="14sp"
+                    app:icon="@drawable/ic_volume_up"
+                    app:iconSize="24dp"
+                    app:iconGravity="top"
+                    android:backgroundTint="#5CB85C"
+                    app:cornerRadius="12dp"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPause"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Stop"
+                    android:textSize="14sp"
+                    app:icon="@drawable/ic_stop"
+                    app:iconSize="24dp"
+                    app:iconGravity="top"
+                    android:backgroundTint="#F0AD4E"
+                    app:cornerRadius="12dp"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnRepeat"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Repeat"
+                    android:textSize="14sp"
+                    app:icon="@drawable/ic_replay"
+                    app:iconSize="24dp"
+                    app:iconGravity="top"
+                    android:backgroundTint="#5BC0DE"
+                    app:cornerRadius="12dp"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <!-- Image Preview Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:background="#E8EEF2"
+                android:contentDescription="Captured Image"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- OCR Result Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_description"
+                        android:contentDescription="Text icon"
+                        app:tint="#2E5C8A"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="Detected Text"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#2E5C8A"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tap 'Capture Text' to scan and read text from images"
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:lineSpacingExtra="4dp"
+                    android:minHeight="100dp"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

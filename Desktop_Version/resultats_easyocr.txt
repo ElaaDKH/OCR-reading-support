@@ -1,0 +1,291 @@
+================================================================================
+RÉSULTATS EASYOCR - TEXTE DÉTECTÉ
+================================================================================
+
+Nombre total de détections : 56
+
+Détection #1:
+  Texte: ===
+  Confiance: 48.42%
+  Position: [[np.int32(31), np.int32(49)], [np.int32(75), np.int32(49)], [np.int32(75), np.int32(61)], [np.int32(31), np.int32(61)]]
+
+Détection #2:
+  Texte: FRANÇAIS
+  Confiance: 89.75%
+  Position: [[np.int32(78), np.int32(42)], [np.int32(174), np.int32(42)], [np.int32(174), np.int32(68)], [np.int32(78), np.int32(68)]]
+
+Détection #3:
+  Texte: ===
+  Confiance: 48.42%
+  Position: [[np.int32(177), np.int32(49)], [np.int32(221), np.int32(49)], [np.int32(221), np.int32(61)], [np.int32(177), np.int32(61)]]
+
+Détection #4:
+  Texte: Bonjour! Ceci est un test OCR_
+  Confiance: 92.70%
+  Position: [[np.int32(28), np.int32(82)], [np.int32(298), np.int32(82)], [np.int32(298), np.int32(108)], [np.int32(28), np.int32(108)]]
+
+Détection #5:
+  Texte: Les chiffres: 123456789 et 0
+  Confiance: 97.55%
+  Position: [[np.int32(26), np.int32(110)], [np.int32(286), np.int32(110)], [np.int32(286), np.int32(136)], [np.int32(26), np.int32(136)]]
+
+Détection #6:
+  Texte: Caractères spéciaux: @#4%&*()
+  Confiance: 68.90%
+  Position: [[np.int32(26), np.int32(139)], [np.int32(328), np.int32(139)], [np.int32(328), np.int32(168)], [np.int32(26), np.int32(168)]]
+
+Détection #7:
+  Texte: Email: test@example. com
+  Confiance: 58.30%
+  Position: [[np.int32(28), np.int32(170)], [np.int32(266), np.int32(170)], [np.int32(266), np.int32(198)], [np.int32(28), np.int32(198)]]
+
+Détection #8:
+  Texte: Prix: 99.99€ ou $49.50
+  Confiance: 66.94%
+  Position: [[np.int32(28), np.int32(202)], [np.int32(236), np.int32(202)], [np.int32(236), np.int32(226)], [np.int32(28), np.int32(226)]]
+
+Détection #9:
+  Texte: ===
+  Confiance: 36.73%
+  Position: [[np.int32(31), np.int32(269)], [np.int32(75), np.int32(269)], [np.int32(75), np.int32(283)], [np.int32(31), np.int32(283)]]
+
+Détection #10:
+  Texte: IJeç_ss (ARABE)
+  Confiance: 46.23%
+  Position: [[np.int32(76), np.int32(260)], [np.int32(244), np.int32(260)], [np.int32(244), np.int32(288)], [np.int32(76), np.int32(288)]]
+
+Détection #11:
+  Texte: ===
+  Confiance: 48.00%
+  Position: [[np.int32(247), np.int32(269)], [np.int32(293), np.int32(269)], [np.int32(293), np.int32(283)], [np.int32(247), np.int32(283)]]
+
+Détection #12:
+  Texte: OCR JUis/
+  Confiance: 12.06%
+  Position: [[np.int32(32), np.int32(300)], [np.int32(128), np.int32(300)], [np.int32(128), np.int32(328)], [np.int32(32), np.int32(328)]]
+
+Détection #13:
+  Texte: 0 , 123456789 :plJjJl
+  Confiance: 34.54%
+  Position: [[np.int32(28), np.int32(330)], [np.int32(226), np.int32(330)], [np.int32(226), np.int32(358)], [np.int32(28), np.int32(358)]]
+
+Détection #14:
+  Texte: )*&%$#@ :9ol
+  Confiance: 41.84%
+  Position: [[np.int32(42), np.int32(360)], [np.int32(194), np.int32(360)], [np.int32(194), np.int32(386)], [np.int32(42), np.int32(386)]]
+
+Détection #15:
+  Texte: test@example.com
+  Confiance: 93.27%
+  Position: [[np.int32(26), np.int32(392)], [np.int32(204), np.int32(392)], [np.int32(204), np.int32(418)], [np.int32(26), np.int32(418)]]
+
+Détection #16:
+  Texte: xi
+  Confiance: 18.20%
+  Position: [[np.int32(210), np.int32(394)], [np.int32(260), np.int32(394)], [np.int32(260), np.int32(418)], [np.int32(210), np.int32(418)]]
+
+Détection #17:
+  Texte: 49.50$ ,0 €99.99 :,2Jl
+  Confiance: 20.70%
+  Position: [[np.int32(26), np.int32(420)], [np.int32(244), np.int32(420)], [np.int32(244), np.int32(448)], [np.int32(26), np.int32(448)]]
+
+Détection #18:
+  Texte: ===
+  Confiance: 48.42%
+  Position: [[np.int32(31), np.int32(489)], [np.int32(75), np.int32(489)], [np.int32(75), np.int32(501)], [np.int32(31), np.int32(501)]]
+
+Détection #19:
+  Texte: ENGLISH
+  Confiance: 99.99%
+  Position: [[np.int32(78), np.int32(482)], [np.int32(162), np.int32(482)], [np.int32(162), np.int32(506)], [np.int32(78), np.int32(506)]]
+
+Détection #20:
+  Texte: ===
+  Confiance: 48.42%
+  Position: [[np.int32(167), np.int32(489)], [np.int32(211), np.int32(489)], [np.int32(211), np.int32(501)], [np.int32(167), np.int32(501)]]
+
+Détection #21:
+  Texte: Hello! This is an OCR test_
+  Confiance: 93.39%
+  Position: [[np.int32(28), np.int32(519)], [np.int32(262), np.int32(519)], [np.int32(262), np.int32(547)], [np.int32(28), np.int32(547)]]
+
+Détection #22:
+  Texte: Numbers: 123456789 and 0
+  Confiance: 83.96%
+  Position: [[np.int32(28), np.int32(549)], [np.int32(280), np.int32(549)], [np.int32(280), np.int32(576)], [np.int32(28), np.int32(576)]]
+
+Détection #23:
+  Texte: Special chars: @#$%&*()
+  Confiance: 65.32%
+  Position: [[np.int32(26), np.int32(580)], [np.int32(266), np.int32(580)], [np.int32(266), np.int32(608)], [np.int32(26), np.int32(608)]]
+
+Détection #24:
+  Texte: Email: test@example. com
+  Confiance: 58.30%
+  Position: [[np.int32(28), np.int32(610)], [np.int32(266), np.int32(610)], [np.int32(266), np.int32(638)], [np.int32(28), np.int32(638)]]
+
+Détection #25:
+  Texte: Price: €99.99 or $49.50
+  Confiance: 71.55%
+  Position: [[np.int32(26), np.int32(640)], [np.int32(242), np.int32(640)], [np.int32(242), np.int32(666)], [np.int32(26), np.int32(666)]]
+
+Détection #26:
+  Texte: lim
+  Confiance: 40.22%
+  Position: [[np.float64(129.17239411139764), np.float64(301.17926704507477)], [np.float64(164.83829006003612), np.float64(305.2121614028417)], [np.float64(161.82760588860236), np.float64(326.82073295492523)], [np.float64(126.16170993996388), np.float64(321.7878385971583)]]
+
+Détection #27:
+  Texte: !l>y
+  Confiance: 25.67%
+  Position: [[np.float64(163.02202795004177), np.float64(298.1638810551212)], [np.float64(221.927368731048), np.float64(308.34386562924783)], [np.float64(216.97797204995823), np.float64(332.8361189448788)], [np.float64(158.072631268952), np.float64(322.65613437075217)]]
+
+Détection #28:
+  Texte: s/
+  Confiance: 5.57%
+  Position: [[np.float64(193.3358994113243), np.float64(364.5038491169865)], [np.float64(243.46869070180733), np.float64(358.29542784875207)], [np.float64(245.6641005886757), np.float64(384.4961508830135)], [np.float64(196.53130929819267), np.float64(390.70457215124793)]]
+
+Détection #29:
+  Texte: 
+  Confiance: 0.00%
+  Position: [[np.int32(31), np.int32(49)], [np.int32(75), np.int32(49)], [np.int32(75), np.int32(61)], [np.int32(31), np.int32(61)]]
+
+Détection #30:
+  Texte: FRANCAIS
+  Confiance: 66.78%
+  Position: [[np.int32(78), np.int32(42)], [np.int32(174), np.int32(42)], [np.int32(174), np.int32(68)], [np.int32(78), np.int32(68)]]
+
+Détection #31:
+  Texte: 
+  Confiance: 0.00%
+  Position: [[np.int32(177), np.int32(49)], [np.int32(221), np.int32(49)], [np.int32(221), np.int32(61)], [np.int32(177), np.int32(61)]]
+
+Détection #32:
+  Texte: Bonjour! Ceci est un test OCR
+  Confiance: 56.78%
+  Position: [[np.int32(28), np.int32(82)], [np.int32(298), np.int32(82)], [np.int32(298), np.int32(108)], [np.int32(28), np.int32(108)]]
+
+Détection #33:
+  Texte: Les chiffres: 123456789 et 0
+  Confiance: 66.79%
+  Position: [[np.int32(26), np.int32(110)], [np.int32(286), np.int32(110)], [np.int32(286), np.int32(136)], [np.int32(26), np.int32(136)]]
+
+Détection #34:
+  Texte: Caracteres speciaux: @#$%&*()
+  Confiance: 60.23%
+  Position: [[np.int32(26), np.int32(139)], [np.int32(328), np.int32(139)], [np.int32(328), np.int32(168)], [np.int32(26), np.int32(168)]]
+
+Détection #35:
+  Texte: Email : test@example com
+  Confiance: 65.61%
+  Position: [[np.int32(28), np.int32(170)], [np.int32(266), np.int32(170)], [np.int32(266), np.int32(198)], [np.int32(28), np.int32(198)]]
+
+Détection #36:
+  Texte: Prix: 99.99E ou $49.50
+  Confiance: 50.98%
+  Position: [[np.int32(28), np.int32(202)], [np.int32(236), np.int32(202)], [np.int32(236), np.int32(226)], [np.int32(28), np.int32(226)]]
+
+Détection #37:
+  Texte: 
+  Confiance: 0.00%
+  Position: [[np.int32(31), np.int32(269)], [np.int32(75), np.int32(269)], [np.int32(75), np.int32(283)], [np.int32(31), np.int32(283)]]
+
+Détection #38:
+  Texte: )ARABE( ةيبرعل|
+  Confiance: 66.50%
+  Position: [[np.int32(76), np.int32(260)], [np.int32(244), np.int32(260)], [np.int32(244), np.int32(288)], [np.int32(76), np.int32(288)]]
+
+Détection #39:
+  Texte: 
+  Confiance: 0.00%
+  Position: [[np.int32(247), np.int32(269)], [np.int32(293), np.int32(269)], [np.int32(293), np.int32(283)], [np.int32(247), np.int32(283)]]
+
+Détection #40:
+  Texte: OCR اختبار
+  Confiance: 99.89%
+  Position: [[np.int32(32), np.int32(300)], [np.int32(128), np.int32(300)], [np.int32(128), np.int32(328)], [np.int32(32), np.int32(328)]]
+
+Détection #41:
+  Texte: الأرقام : 123456789 9 0
+  Confiance: 66.44%
+  Position: [[np.int32(28), np.int32(330)], [np.int32(226), np.int32(330)], [np.int32(226), np.int32(358)], [np.int32(28), np.int32(358)]]
+
+Détection #42:
+  Texte: خاصة : @#$%&*
+  Confiance: 89.03%
+  Position: [[np.int32(42), np.int32(360)], [np.int32(194), np.int32(360)], [np.int32(194), np.int32(386)], [np.int32(42), np.int32(386)]]
+
+Détection #43:
+  Texte: test@example com
+  Confiance: 70.20%
+  Position: [[np.int32(26), np.int32(392)], [np.int32(204), np.int32(392)], [np.int32(204), np.int32(418)], [np.int32(26), np.int32(418)]]
+
+Détection #44:
+  Texte: البريد :
+  Confiance: 43.37%
+  Position: [[np.int32(210), np.int32(394)], [np.int32(260), np.int32(394)], [np.int32(260), np.int32(418)], [np.int32(210), np.int32(418)]]
+
+Détection #45:
+  Texte: 49.SOS أو E99.99 :السعر
+  Confiance: 24.36%
+  Position: [[np.int32(26), np.int32(420)], [np.int32(244), np.int32(420)], [np.int32(244), np.int32(448)], [np.int32(26), np.int32(448)]]
+
+Détection #46:
+  Texte: 
+  Confiance: 0.00%
+  Position: [[np.int32(31), np.int32(489)], [np.int32(75), np.int32(489)], [np.int32(75), np.int32(501)], [np.int32(31), np.int32(501)]]
+
+Détection #47:
+  Texte: ENGLISH
+  Confiance: 99.64%
+  Position: [[np.int32(78), np.int32(482)], [np.int32(162), np.int32(482)], [np.int32(162), np.int32(506)], [np.int32(78), np.int32(506)]]
+
+Détection #48:
+  Texte: 
+  Confiance: 0.00%
+  Position: [[np.int32(167), np.int32(489)], [np.int32(211), np.int32(489)], [np.int32(211), np.int32(501)], [np.int32(167), np.int32(501)]]
+
+Détection #49:
+  Texte: Hello! This is an OCR test
+  Confiance: 62.24%
+  Position: [[np.int32(28), np.int32(519)], [np.int32(262), np.int32(519)], [np.int32(262), np.int32(547)], [np.int32(28), np.int32(547)]]
+
+Détection #50:
+  Texte: Numbers: 123456Z89 and 0
+  Confiance: 65.68%
+  Position: [[np.int32(28), np.int32(549)], [np.int32(280), np.int32(549)], [np.int32(280), np.int32(576)], [np.int32(28), np.int32(576)]]
+
+Détection #51:
+  Texte: Special chars: @#$%&*()
+  Confiance: 54.43%
+  Position: [[np.int32(26), np.int32(580)], [np.int32(266), np.int32(580)], [np.int32(266), np.int32(608)], [np.int32(26), np.int32(608)]]
+
+Détection #52:
+  Texte: Email : test@example com
+  Confiance: 65.61%
+  Position: [[np.int32(28), np.int32(610)], [np.int32(266), np.int32(610)], [np.int32(266), np.int32(638)], [np.int32(28), np.int32(638)]]
+
+Détection #53:
+  Texte: Price: E99.99 or $49.50
+  Confiance: 42.13%
+  Position: [[np.int32(26), np.int32(640)], [np.int32(242), np.int32(640)], [np.int32(242), np.int32(666)], [np.int32(26), np.int32(666)]]
+
+Détection #54:
+  Texte: هذا
+  Confiance: 65.17%
+  Position: [[np.float64(129.17239411139764), np.float64(301.17926704507477)], [np.float64(164.83829006003612), np.float64(305.2121614028417)], [np.float64(161.82760588860236), np.float64(326.82073295492523)], [np.float64(126.16170993996388), np.float64(321.7878385971583)]]
+
+Détection #55:
+  Texte: مدحبا !
+  Confiance: 47.37%
+  Position: [[np.float64(163.02202795004177), np.float64(298.1638810551212)], [np.float64(221.927368731048), np.float64(308.34386562924783)], [np.float64(216.97797204995823), np.float64(332.8361189448788)], [np.float64(158.072631268952), np.float64(322.65613437075217)]]
+
+Détection #56:
+  Texte: أحرف
+  Confiance: 99.55%
+  Position: [[np.float64(193.3358994113243), np.float64(364.5038491169865)], [np.float64(243.46869070180733), np.float64(358.29542784875207)], [np.float64(245.6641005886757), np.float64(384.4961508830135)], [np.float64(196.53130929819267), np.float64(390.70457215124793)]]
+
+
+================================================================================
+TEXTE COMPLET (tout en une ligne):
+================================================================================
+=== FRANÇAIS === Bonjour! Ceci est un test OCR_ Les chiffres: 123456789 et 0 Caractères spéciaux: @#4%&*() Email: test@example. com Prix: 99.99€ ou $49.50 === IJeç_ss (ARABE) === OCR JUis/ 0 , 123456789 :plJjJl )*&%$#@ :9ol test@example.com xi 49.50$ ,0 €99.99 :,2Jl === ENGLISH === Hello! This is an OCR test_ Numbers: 123456789 and 0 Special chars: @#$%&*() Email: test@example. com Price: €99.99 or $49.50 lim !l>y s/  FRANCAIS  Bonjour! Ceci est un test OCR Les chiffres: 123456789 et 0 Caracteres speciaux: @#$%&*() Email : test@example com Prix: 99.99E ou $49.50  )ARABE( ةيبرعل|  OCR اختبار الأرقام : 123456789 9 0 خاصة : @#$%&* test@example com البريد : 49.SOS أو E99.99 :السعر  ENGLISH  Hello! This is an OCR test Numbers: 123456Z89 and 0 Special chars: @#$%&*() Email : test@example com Price: E99.99 or $49.50 هذا مدحبا ! أحرف
